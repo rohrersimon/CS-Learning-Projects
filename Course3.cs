@@ -2,13 +2,29 @@ using System;
 
 public class Course3
 {
+    public static void Module4()
+    {
+        Console.WriteLine("test bestanden");
+    }
     public static void Module3()
     {
         Console.WriteLine("test bestanden");
     }
     public static void Module2()
     {
-        Console.WriteLine("test bestanden");
+        int[] numbers = { 4, 8, 15, 16, 23, 42 };
+        int total = 0;
+
+        foreach (int number in numbers)
+        {
+            total += number;
+
+            if (number == 42)
+                Console.WriteLine("Set contains 42");
+        }
+
+        Console.WriteLine($"Total: {total}");
+
     }
     public static void Module1()
     {
