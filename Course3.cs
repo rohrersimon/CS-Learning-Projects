@@ -4,10 +4,6 @@ using System.Globalization;
 
 public class Course3
 {
-    public static void Module8()
-    {
-        Console.WriteLine("test bestanden");
-    }
     public static void Module7()
     {
         Console.WriteLine("test bestanden");
@@ -58,17 +54,25 @@ public class Course3
         do
         {
             readResult = Console.ReadLine();
-            trimmedResult = readResult.Trim().ToLower();
-            readResult = readResult.Trim();
-
-            if (trimmedResult == "administrator" || trimmedResult == "manager" || trimmedResult == "user")
+            
+            if (readResult == null)
             {
-                Console.WriteLine($"Your input value ({readResult}) has been accepted.");
-                validEntry = true;
+                Console.WriteLine("User input: Null exception.");
             }
             else
             {
-                Console.WriteLine($"The role name that you entered, \"{readResult}\" is not valid. Enter your role name (Administrator, Manager, or User)");
+                trimmedResult = readResult.Trim().ToLower();
+                readResult = readResult.Trim();
+
+                if (trimmedResult == "administrator" || trimmedResult == "manager" || trimmedResult == "user")
+                {
+                    Console.WriteLine($"Your input value ({readResult}) has been accepted.");
+                    validEntry = true;
+                }
+                else
+                {
+                    Console.WriteLine($"The role name that you entered, \"{readResult}\" is not valid. Enter your role name (Administrator, Manager, or User)");
+                }
             }
 
         } while (validEntry == false);
