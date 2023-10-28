@@ -20,8 +20,32 @@ public class Course3
     public static void CodeProject3()
     {
         string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+        string printable;
+        string currentString;
 
-        
+        foreach (string myString in myStrings)
+        {
+            currentString = myString;
+            int index = currentString.IndexOf(".");
+
+            if (index > 0)
+            {
+                while (index > 0)
+                {
+                    printable = currentString.Remove(index);
+                    Console.WriteLine(printable);
+                    
+                    currentString = currentString.Substring(index + 1);
+                    currentString = currentString.TrimStart();
+                    index = currentString.IndexOf(".");
+                }
+                Console.WriteLine(currentString);
+            }
+            else
+            {
+                Console.WriteLine(currentString);
+            }
+        }
     }
     public static void CodeProject2()
     {
