@@ -1,10 +1,40 @@
 using System;
+using System.Globalization;
 
 public class Course3
 {
-    public static void Module4()
+    public static void Module8()
     {
         Console.WriteLine("test bestanden");
+    }
+    public static void Module7()
+    {
+        Console.WriteLine("test bestanden");
+    }
+    public static void Module6()
+    {
+        Console.WriteLine("test bestanden");
+    }
+    public static void Module5()
+    {
+        Console.WriteLine("test bestanden");
+    }
+    public static void Module4()
+    {
+        string fizz = "Fizz";
+        string buzz = "Buzz";
+        
+        for (int number = 1; number <= 100; number++)
+        {
+            if (number % 3 == 0 && number % 5 == 0)
+                Console.WriteLine($"{number} - {fizz}{buzz}");
+            else if (number % 3 ==0)
+                Console.WriteLine($"{number} - {fizz}");
+            else if (number % 5 ==0)
+                Console.WriteLine($"{number} - {buzz}");
+            else
+                Console.WriteLine(number);
+        }
     }
     public static void Module3()
     {
