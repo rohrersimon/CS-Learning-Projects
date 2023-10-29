@@ -8,24 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/simon/.nuget/packages/": {}
+    "C:\\Users\\Simon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/simon/Documents/GitHub/CS-Learning-Projects/CS-Learning-Projects.csproj",
+      "projectUniqueName": "C:\\Users\\Simon\\OneDrive\\OneNote Notebooks\\GitHub\\CS-Learning-Projects\\CS-Learning-Projects.csproj",
       "projectName": "CS-Learning-Projects",
-      "projectPath": "/home/simon/Documents/GitHub/CS-Learning-Projects/CS-Learning-Projects.csproj",
-      "packagesPath": "/home/simon/.nuget/packages/",
-      "outputPath": "/home/simon/Documents/GitHub/CS-Learning-Projects/obj/",
+      "projectPath": "C:\\Users\\Simon\\OneDrive\\OneNote Notebooks\\GitHub\\CS-Learning-Projects\\CS-Learning-Projects.csproj",
+      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Simon\\OneDrive\\OneNote Notebooks\\GitHub\\CS-Learning-Projects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/simon/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
