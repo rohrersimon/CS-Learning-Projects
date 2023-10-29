@@ -41,17 +41,3 @@ C:/Users/Simon/OneDrive/OneNote Notebooks/GitHub/CS-Learning-Projects/obj/Debug/
 /home/simon/Documents/GitHub/CS-Learning-Projects/obj/Debug/net7.0/CS-Learning-Projects.pdb
 /home/simon/Documents/GitHub/CS-Learning-Projects/obj/Debug/net7.0/CS-Learning-Projects.genruntimeconfig.cache
 /home/simon/Documents/GitHub/CS-Learning-Projects/obj/Debug/net7.0/ref/CS-Learning-Projects.dll
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\bin\Debug\net7.0\CS-Learning-Projects.exe
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\bin\Debug\net7.0\CS-Learning-Projects.deps.json
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\bin\Debug\net7.0\CS-Learning-Projects.runtimeconfig.json
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\bin\Debug\net7.0\CS-Learning-Projects.dll
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\bin\Debug\net7.0\CS-Learning-Projects.pdb
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\CS-Learning-Projects.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\CS-Learning-Projects.AssemblyInfoInputs.cache
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\CS-Learning-Projects.AssemblyInfo.cs
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\CS-Learning-Projects.csproj.CoreCompileInputs.cache
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\CS-Learning-Projects.dll
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\refint\CS-Learning-Projects.dll
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\CS-Learning-Projects.pdb
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\CS-Learning-Projects.genruntimeconfig.cache
-C:\Users\Simon\OneDrive\OneNote Notebooks\GitHub\CS-Learning-Projects\obj\Debug\net7.0\ref\CS-Learning-Projects.dll
