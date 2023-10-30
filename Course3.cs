@@ -4,15 +4,6 @@ using System.Globalization;
 
 public class Course3
 {
-    public static void Module7()
-    {
-        Console.WriteLine("test bestanden");
-    }
-    public static void Module6()
-    {
-        Console.WriteLine("test bestanden");
-    }
-
     public static void CodeProject3()
     {
         string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
