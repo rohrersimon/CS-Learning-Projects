@@ -2,9 +2,48 @@ using System;
 
 public class Course4
 {
+    public static void Module3()
+    {
+
+    }
     public static void Module2()
     {
-        int[] data = new int[3];
+        string value5 = "102";
+        int result1 = 0;
+        if (int.TryParse(value5, out result1)) //magic happens here with 'out' key word
+        {
+            Console.WriteLine($"Measurement: {result1}");
+        }
+        else
+        {
+            Console.WriteLine("Unable to report the measurement.");
+        }
+        if (result1 > 0)
+            Console.WriteLine($"Measurement (w/ offset): {50 + result1}");
+
+        int value3 = (int)1.5m; // casting truncates
+        Console.WriteLine(value3);
+
+        int value4 = Convert.ToInt32(1.5m); // converting rounds up
+        Console.WriteLine(value4);
+
+        string value1 = "5";
+        string value2 = "7";
+        int result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+        Console.WriteLine(result);
+
+        string first = "5";
+        string second = "7";
+        int sum = int.Parse(first) + int.Parse(second);
+        Console.WriteLine(sum);
+
+        decimal myDecimal = 1.23456789m;
+        float myFloat = (float)myDecimal;
+        int myInt = (int)myFloat;
+
+        Console.WriteLine($"Decimal: {myDecimal}");
+        Console.WriteLine($"Float  : {myFloat}");
+        Console.WriteLine($"Int  : {myInt}");
     }
     public static void Module1()
     {
