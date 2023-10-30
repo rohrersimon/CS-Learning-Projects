@@ -1,6 +1,6 @@
 using System;
 
-public class CourseX
+public class Course4
 {
     public static void Module2()
     {

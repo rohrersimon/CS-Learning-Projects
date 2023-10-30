@@ -4,6 +4,6 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Course3.Module6();
+        Course4.Module1();
     }
 }
