@@ -1,10 +1,57 @@
 using System;
+//using System.Globalization;
 
 public class Course4
 {
+    public static void Module5()
+    {
+        Console.WriteLine("test bestanden");
+    }
+    public static void Module4()
+    {
+        int value1 = 12;
+        decimal value2 = 6.2m;
+        decimal result1;
+        decimal result2;
+        float value3 = 4.3f;
+        float result3;
+
+
+        result1 = value1 / value2;
+        result1 = Convert.ToInt32(result1);
+        // Hint: You need to round the result to nearest integer (don't just truncate)
+        Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+
+        result2 = value2 / (decimal)value3;
+        Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+
+        result3 = value3 / value1;
+        //result3 = Convert.ToSingle(result3);
+        //result3 = (float)result3;
+        Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+    }
     public static void Module3()
     {
+        string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+        string message = "";
+        float total = 0.0f;
 
+        foreach (string value in values)
+        {
+            float parsedValue = 0.0f;
+
+            if (float.TryParse(value, out parsedValue))
+            {
+                total += parsedValue;
+            }
+            else
+            {
+                message += value;
+            }
+        }
+
+        Console.WriteLine($"Message: {message}");
+        Console.WriteLine($"Total: {total}");
     }
     public static void Module2()
     {
