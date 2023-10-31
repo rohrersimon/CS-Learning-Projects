@@ -3,9 +3,106 @@ using System;
 
 public class Course4
 {
+    public static void Module9()
+    {
+
+    }
+    public static void Module8()
+    {
+        string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+        string[] orders = orderStream.Split(',');
+
+        Array.Sort(orders);
+
+        for (int i = 0; i < orders.Length; i++)
+        {
+            if (orders[i].Length == 4)
+            {
+                Console.WriteLine(orders[i]);
+            }
+            else
+            {
+                Console.WriteLine($"{orders[i]}\t- Error");
+            }
+        }
+    }
+    public static void Module7()
+    {
+        string pangram = "The quick brown fox jumps over the lazy dog";
+        string correctOutput = "ehT kciuq nworb xof spmuj revo eht yzal god";
+        string output = "";
+
+        string[] words = pangram.Split(' ');
+        for (int i = 0; i < words.Length; i++)
+        {
+            char[] charArray = words[i].ToCharArray();
+            Array.Reverse(charArray);
+            words[i] = String.Join("", charArray);
+        }
+
+        output = String.Join(" ", words);
+        Console.WriteLine(output);
+        if (output == correctOutput)
+        {
+            Console.WriteLine("\nThe output is correct!");
+        }
+    }
+    public static void Module6()
+    {
+        string value = "abc123";
+        char[] valueArray = value.ToCharArray();
+        Array.Reverse(valueArray);
+        // string result = new string(valueArray);
+        string result = String.Join(",", valueArray);
+        Console.WriteLine(result);
+
+        string[] items = result.Split(',');
+        foreach (string item in items)
+        {
+            Console.WriteLine(item);
+        }
+    }
     public static void Module5()
     {
-        Console.WriteLine("test bestanden");
+        string[] pallets = { "B14", "A11", "B12", "A13" };
+
+        Console.WriteLine("Sorted...");
+        Array.Sort(pallets);
+        foreach (var pallet in pallets)
+        {
+            Console.WriteLine($"-- {pallet}");
+        }
+
+        Console.WriteLine("");
+        Console.WriteLine("Reversed...");
+        Array.Reverse(pallets);
+        foreach (var pallet in pallets)
+        {
+            Console.WriteLine($"-- {pallet}");
+        }
+
+        string[] pallets3 = { "B14", "A11", "B12", "A13" };
+        Console.WriteLine("");
+
+        Array.Clear(pallets3, 0, 2);
+        Console.WriteLine($"Clearing 2 ... count: {pallets3.Length}");
+        foreach (var pallet in pallets3)
+        {
+            Console.WriteLine($"-- {pallet}");
+        }
+
+        Console.WriteLine("");
+        Array.Resize(ref pallets3, 6);
+        Console.WriteLine($"Resizing 6 ... count: {pallets3.Length}");
+
+        pallets3[4] = "C01";
+        pallets3[5] = "C02";
+
+        foreach (var pallet in pallets3)
+        {
+            Console.WriteLine($"-- {pallet}");
+        }
+
     }
     public static void Module4()
     {
